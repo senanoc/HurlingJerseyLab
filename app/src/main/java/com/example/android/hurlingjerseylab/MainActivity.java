@@ -8,8 +8,22 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+
+    private TextView mNameTextView, mNumberTextView;
+    private Jersey mCurrentJersey;
+    private Jersey mClearedJersey;
+    private boolean mPurpleColour = false;
+    private boolean saved_color_state;
+
+    // Constants:
+    private final static String PREFS = "PREFS";
+    private static final String KEY_JERSEY_NAME = "KEY_JERSEY_NAME";
+    private static final String KEY_JERSEY_NUMBER = "KEY_JERSEY_NUMBER";
+    private static final String KEY_JERSEY_COLOUR = "KEY_JERSEY_COLOUR";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
