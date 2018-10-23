@@ -8,7 +8,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Update Jersey Info"
+        android:text="Update Jersey"
         android:textSize="26sp"
         android:textStyle="bold"
         android:layout_margin="@dimen/fab_margin"
@@ -24,7 +24,7 @@
         android:id="@+id/edit_name_dialog"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="ANDROID"
+        android:hint="Ireland"
         android:inputType="textCapCharacters"
         />
 
@@ -38,7 +38,7 @@
         android:id="@+id/edit_number_dialog"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="17"
+        android:hint="16"
         android:inputType="number"
         />
 
@@ -46,17 +46,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
+        <!--
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Purple Jersey"
             />
+            -->
 
         <ToggleButton
             android:id="@+id/purple_Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/button_initial_text"
+            android:textOff="Green Jersey"
+            android:textOn="Purple Jersey"
             android:textColor="@color/design_default_color_primary_dark"
             android:onClick="handlePurpleJersey"
             />

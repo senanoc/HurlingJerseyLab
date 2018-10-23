@@ -32,6 +32,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="162dp"
+        android:textColor="@color/colorLight"
         android:text="@string/name_initial"
         android:textSize="28sp"
         android:textStyle="bold" />
@@ -43,6 +44,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="222dp"
+        android:textColor="@color/colorLight"
         android:text="@string/number_initial"
         android:textSize="48sp"
         android:textStyle="bold" />

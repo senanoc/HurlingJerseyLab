@@ -7,4 +7,11 @@
         android:orderInCategory="100"
         android:title="@string/action_settings"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/actions_reset"
+        android:orderInCategory="100"
+        android:title="@string/actions_reset"
+        app:showAsAction="always" />
+
 </menu>
